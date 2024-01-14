@@ -78,3 +78,19 @@ button:hover{
 .animate-scroll {
   animation: scroll 10s linear infinite;
 }
+
+@media (400px <= width <= 800px) {
+  .headersm{
+    color: black;
+    font-weight: bold;
+    font-size: 30px;
+    background-color: green;
+    gap: 50px
+
+  }
+  .heradersm:hover{
+    font-size: 40px;
+    font-weight: lighter;
+  }
+
+}
