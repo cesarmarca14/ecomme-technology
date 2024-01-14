@@ -4,6 +4,7 @@ import Gamer from './components/Gamer'
 import Categoria from './components/Categoria'
 import {blogs} from './data/data'
 import {CardBlog} from './components/CardBlog';
+import Novedades from './components/Novedades'
 import './App.css'
 
 
@@ -15,8 +16,8 @@ function App() {
       <div>
         <HeaderComputo />
         <Categoria />
-        <Gamer />
-        <div className="container bg-black h-[110px]  mt-20">
+        <Novedades />
+        <div className="container bg-black h-[150px]  mt-20">
     <div className=" overflow-hidden w-full">
 
       <div className='flex whitespace-nowrap animate-scroll'>

@@ -4,8 +4,8 @@ import {catgamer} from './apigamer'
 const Gamer = () => {
   return (
     <> 
-    <p className='font-bold ml-[50px] mt-10'>ZonaGamer</p>
-    <p className='ml-[50px] mt-'>Las mejores noverdades de todo el <span className='font-bold text-red-700'>P</span>er<span className='font-bold text-red-700'>ú</span></p>
+    <p className='font-bold ml-[50px] mt-10'>Novedades</p>
+    <p className='ml-[50px] mt-'>Las mejores novedades de todo el <span className='font-bold text-red-700'>P</span>er<span className='font-bold text-red-700'>ú</span></p>
     
     <div className='card_contenedor'>
       
