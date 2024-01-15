@@ -21,7 +21,7 @@ const Novedades = () => {
                
                 <h2 className='card_info'>{item.name} </h2>
               
-              <button className='flex items-center'>
+              <button className='boton_compra flex items-center'>
                 <a target="_blank" href=''>
                   {item.price}
                 </a>
