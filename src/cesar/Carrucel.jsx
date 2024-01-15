@@ -1,10 +1,11 @@
-import './Carrucel.css'
 import 'bootstrap/dist/css/bootstrap.min.css'
 
 const carrucel = () => {
   return (
     <>
-      <div id="carouselExampleIndicators" className="carousel slide">
+    <section className='containerCarrucel'>
+
+   <div id="carouselExampleIndicators" className="carousel slide">
   <div className="carousel-indicators">
     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1"></button>
     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -12,24 +13,25 @@ const carrucel = () => {
   </div>
   <div className="carousel-inner">
     <div className="carousel-item active">
-      <img src="https://i.postimg.cc/FKXzG0kq/22046389-1899860273373898-8565436825410370285-n.jpg" className="d-block w-500" alt="tienda" />
+      <img src="https://i.postimg.cc/Dy30TvJV/146986187-225018912671501-8241824379022586542-n.jpg" className="imgCarrucel" alt="tienda" />
     </div>
     <div className="carousel-item">
-      <img src="https://i.postimg.cc/CL7CczzM/904602.jpg" className="d-block w-500" alt="pantalla"/>
+      <img src="https://i.postimg.cc/TYZ8K0MB/1366-2000.jpg" className="imgCarrucel" alt="pantalla"/>
     </div>
     <div className="carousel-item">
-      <img src="https://i.postimg.cc/kXyrwFQV/Ecommer.png" className="d-block w-500 " alt="teclado"/>
+      <img src="https://i.postimg.cc/KYdSM5M1/imagen-27.png" className="imgCarrucel" alt="teclado"/>
     </div>
   </div>
   <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
     <span className="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span className="visually-hidden btn btn-danger">Previous</span>
+    <span className="visually-hidden btn btn-warning">Previous</span>
   </button>
   <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
     <span className="carousel-control-next-icon" aria-hidden="true"></span>
     <span className="visually-hidden">Next</span>
   </button>
 </div>
+</section>
     </>
   )
 }
