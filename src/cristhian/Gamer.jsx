@@ -9,7 +9,7 @@ const Gamer = () => {
     
     <div className='card_contenedor'>
       
-      
+      {/* el item es un parametro  */}
     {catgamer.map((item)=> (
     <div className="proyecto">
         <div className=' border-slate-400/50 border-2 rounded-md ' >
