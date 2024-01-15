@@ -1,0 +1,15 @@
+.modoDarck{
+    /* border: solid red; */
+    background-color: blue;
+    margin-left: 20px;
+    display: flex;
+    gap: 30px;
+
+}
+.dia{
+    background-color: blueviolet;
+      
+}
+.noche{
+    background-color: black;
+}
