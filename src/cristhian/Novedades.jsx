@@ -4,19 +4,19 @@ import {catnew} from './apinew'
 const Novedades = () => {
   return (
         <> 
-        <div className='bg-[#0c163b]'>
-        <p className='font-bold ml-[50px] mt-10'>Novedades</p>
+        <div className=''>
+        <p className='font-bold ml-[50px]  mt-10'>Novedades</p>
         <p className='ml-[50px] mt-'>Las mejores novedades de todo el <span className='font-bold text-red-700'>P</span>er<span className='font-bold text-red-700'>ú</span></p>
         
-        <div className='card_contenedor '>
+        <div className='card_contenedor  '>
           
           
         {catnew.map((item)=> (
-        <div className="proyecto bg-[#333]">
-            <div className=' border-slate-400/50 border-2 rounded-md ' >
+        <div className="proyecto ">
+            <div className=' bg-white border-2 rounded-md ' >
     
               
-             <div className="overlay bg-[#0c163b] hover:translate-y-2.5 hover:transition-all hover:rounded-md text-center ">
+             <div className="overlay hover:translate-y-2.5 hover:transition-all hover:rounded-md text-center ">
             
                 <img className='card_img' src={item.img} alt="" />
                
