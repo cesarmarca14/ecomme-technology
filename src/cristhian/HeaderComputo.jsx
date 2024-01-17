@@ -7,6 +7,7 @@ const auth = getAuth(appFirebase);
 
 const HeaderComputo = ({ user }) => {
   return (
+
     <div className="w-[100%] mx-auto overflow-hidden bg-[#009fe3]  ">
       <header>
         <nav className="flex h-32 items-center justify-between">
