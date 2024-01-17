@@ -2,7 +2,9 @@ import React from 'react'
 
 const Slider = () => {
   return (
+
     <div className='slider'>
+        <h1 className=' marca_asociada flex border-4 justify-center text-4xl font-bold'>MARCAS ASOCIADAS A NUESTRO PROYECTO</h1>
       <div className='slide-track'>
         <div className='slide'>
             <img className='h-70' src='https://i.postimg.cc/Kjkn673F/10.png' alt='' />

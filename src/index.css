@@ -47,6 +47,7 @@ body{
   margin: auto;
   margin-top: 100px;
   background-color: #f0f0f0;
+  margin-bottom: 70px;
 }
 .card_img{
   width: 200px;
@@ -56,14 +57,37 @@ body{
 
 
 }
+/* desde aqui se modifico para poder agregar los stilos a los precios */
 .card_info{
  display: flex;
   align-items: center;
   margin: 10px;
-  width: 200px;
-  height: 100px;
-  font-weight: lighter;
+  width: 90px;
+  height: 30px;
+  justify-content: end;
+ 
+  
 }
+.card_name{
+  display: flex;
+  align-items: center;
+  margin: 10px;
+  width: 200px;
+  height: 80px;
+  font-weight: lighter;
+  justify-content: center;
+}
+.card_logo_bbva{
+  width: 70px;
+}
+.contenedor_precio_logo{
+  display: flex;
+  height: 30px;
+  align-items: center;
+  justify-content: space-between;
+  
+}
+/* termino estilos a los precios */
 /* .card_buton{
   display: flex;
   justify-content: center; 
@@ -87,7 +111,7 @@ body{
 /* } */ 
 
 .boton_compra{
-   border: solid 1px black;
+ 
   width: 200px;
   height: 40px;
   background-color: #009fe3;
@@ -138,6 +162,13 @@ body{
     position: relative;
    
   }
+  /* responsive de marcas asociadas */
+  .marca_asociada{
+    font-size: 20px;
+    display: flex;
+    text-align: center;
+    color: #0039a6;
+  }
 }
 /* inicio de carrucel infinito */
 .slider{
@@ -145,13 +176,13 @@ body{
   height: auto;
   margin: auto;
   overflow: hidden;
-  margin-top: 50px;
 }
 .slider .slide-track{
   display: flex;
   animation: scroll 40s linear infinite;
   -webkit-animation: scroll 40s linear infinite;
   width: calc(200px * 20 + 0.5rem * 10);
+  margin-top: 60px;
 }
 .slider .slide{
   width: 200px;
