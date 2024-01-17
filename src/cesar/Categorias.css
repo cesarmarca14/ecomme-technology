@@ -16,8 +16,8 @@
 }
 
 .containerCategorias img {
-    height:70px;
-    width: 70px;
+    width: 90px;
+    height:90px;
     border-radius: 100px;
     background-color: brown;
     border: solid rgb(255, 253, 253) 0.2px;
