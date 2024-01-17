@@ -36,7 +36,7 @@ const Login = () => {
     <div className="container">
       <div className="row">
         {/* Formulario */}
-        <div className="col-md-4">
+        <div className="col-md-4 ">
           <div className="container-padre">
             <div className="card container-card shadow-lg">
               <img

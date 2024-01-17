@@ -28,13 +28,8 @@ const App = () => {
   return (
     <>
       <BrowserRouter>
-        <HeaderComputo user={user} />
-        <input
-          type="text"
-          placeholder="Buscar..."
-          value={search}
-          onChange={(e) => setSearch(e.target.value)}
-        />
+      <HeaderComputo user={user} />
+        
         <Routes>
           <Route path="/" element={<Home filteredApiNew={filteredApiNew} />} />
           <Route path="/login" element={<Login />} />
