@@ -11,17 +11,17 @@ const HeaderComputo = ({ user }) => {
 
 
     
-
-    <div className="w-[100%] mx-auto overflow-hidden bg-[#009fe3]  ">
+//aqui se le agrego la posicion fixed para que la posicion de los elementos sea fija al hacer scrool , un top 0 que asegura que el elemento siempre este en la parte superior de la pagina y un z-50 asegura que el elemento siempre este por encima de los demas elementos de la pagina osea que este superior a cualquier otro contenido de la pagina
+    <div className="w-[100%] mx-auto  overflow-hidden bg-[#009fe3] fixed top-0 z-50  ">
       <header>
     
         <nav className="flex h-32 items-center justify-between ">
           <Link
             to="/"
-            className="w-1/2   mr-90  text-4xl text-white font-bold "
+            className="w-1/2  mr-92   text-4xl text-white font-bold "
           >
             <img
-              className=" w-80 mt-6"
+              className=" w-80 mt-4 "
               src="./public/DeluxeComputer2.png"
               alt=""
             />
@@ -31,7 +31,7 @@ const HeaderComputo = ({ user }) => {
             htmlFor="menu"
             className="hamburguer   w-10 h-10  bg-open-menu bg-cover bg-center rounded-lg  bg-blue-800 cursor-pointer peer-checked/menu:bg-close-menu transition-all z-40 md:hidden "
           ></label>
-          <ul className="headersm fixed inset-0 bg-slate-500/80  ml-80 text-lg text-white font-light px-[5%] grid auto-rows-max gap-8 content-center justify-items-center clip-circle-0 peer-checked/menu:clip-circle-full transition-[clip-path] duration-500 md:clip-circle-full md:relative md:grid-flow-col md:p-4 md:bg-transparent ">
+          <ul className="headersm fixed inset-0 bg-slate-500/80   text-lg text-white font-light px-[5%] grid auto-rows-max gap-8 content-center justify-items-center clip-circle-0 peer-checked/menu:clip-circle-full transition-[clip-path] duration-500 md:clip-circle-full md:relative md:grid-flow-col md:p-4 md:bg-transparent ">
             {user ? (
               <li className="py-1 px-1 rounded-lg hover:font-bold">
                 <p
@@ -43,7 +43,9 @@ const HeaderComputo = ({ user }) => {
                 </p>
               </li>
             ) : (
-              <li className="py-1 px-1 rounded-lg hover:font-bold">
+              //aqui a las li le agregue un w-[120px] para que no se desacomode el menu y un mb-10 para que se separe del el borde del menu hacia arriba
+
+              <li className="py-1 px-1 rounded-lg hover:font-bold w-[200px] mb-10 ">
                 <Link
                   className="inicio font-semibold flex flex-col items-center"
                   to="/login"
@@ -53,17 +55,14 @@ const HeaderComputo = ({ user }) => {
                 </Link>
               </li>
             )}
-
-            {/* <li className=" py-1 px-1 rounded-lg  hover:font-bold">
-                <a className="pedidos font-semibold" href="#">| Pedidos</a>
-            </li> */}
-            <li className=" py-1 px-1 rounded-lg ">
+            
+            <li className=" py-1 px-1 rounded-lg  mb-10 w-[290px]   ">
               <a
                 className="carrito font-semibold flex
-                flex-col items-center"
+                flex-col items-center "
                 href="#"
               >
-              <i class="bi bi-shop"></i>
+              <i className="bi bi-shop"></i>
                 | Carrito de compras
               </a>
             </li>
@@ -72,7 +71,7 @@ const HeaderComputo = ({ user }) => {
               <li className=" py-1 px-1 rounded-lg ">
                 <button
                   className="carrito font-semibold flex
-                flex-col items-center"
+                flex-col items-center w-20 "
                   onClick={() => signOut(auth)}
                 >
                <i class="bi bi-calendar-x-fill"></i>
