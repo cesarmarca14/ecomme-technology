@@ -28,7 +28,7 @@ const App = () => {
 
   return (
     <>
-       <ModoDarck />
+
       <BrowserRouter>
       <HeaderComputo 
       
