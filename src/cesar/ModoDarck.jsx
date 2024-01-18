@@ -13,9 +13,13 @@ const ModoDarck = () => {
 
   return (
     <>
-      <button onClick={toggle}>
-        {Darck ? <i className="bi bi-moon"></i> : <i className="bi bi-sun-fill"></i>}
-      </button>
+    
+  <>
+    <button className='' onClick={toggle}>
+      {Darck ? <i className="fs-3 bi-moon"></i> : <i className="fs-3  bi-sun-fill"></i>}
+    </button>
+  </>
+
     </>
   );
 };
