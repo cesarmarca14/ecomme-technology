@@ -11,7 +11,7 @@ body{
     height: auto;
     display: flex;
     justify-content:right;
-    /* border: solid red; */
+
     background:linear-gradient(rgba(18, 10, 1, 0.986),rgba(244, 245, 242, 0.598));
 
 }
