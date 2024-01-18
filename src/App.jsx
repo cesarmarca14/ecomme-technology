@@ -1,6 +1,7 @@
+
 import { Navigate, BrowserRouter, Route, Routes } from "react-router-dom";
 import HeaderComputo from "./cristhian/HeaderComputo";
-import Home from "./pages/Home/home";
+import Home from "./pages/Home/Home.jsx";
 import { catnew } from "./cristhian/apinew";
 import Carrucel from './Carrucel.jsx';
 import { useState } from "react";
@@ -8,7 +9,9 @@ import Login from "./Christofer/Login";
 import { getAuth, onAuthStateChanged } from "firebase/auth";
 import appFirebase from "./credenciales";
 const auth = getAuth(appFirebase);
-import ModoDarck from "./cesar/ModoDarck.jsx";
+import Sliderr from './componets/Sliderr.jsx'
+
+
 
 const App = () => {
   const [search, setSearch] = useState("");
@@ -26,44 +29,32 @@ const App = () => {
     }
   });
 
+
+
+
+
+// import './App.css'
+
+
+
+
   return (
     <>
 
-      <BrowserRouter>
-      <HeaderComputo 
+    <BrowserRouter>
+    <HeaderComputo 
+    
+    user={user} />
       
-      user={user} />
-        
-        <Routes>
-          <Route path="/" element={<Home filteredApiNew={filteredApiNew} />} />
-          <Route path="/login" element={<Login />} />
-          <Route path="*" element={<Navigate to="/" replace />} />
-        </Routes>
-      </BrowserRouter>
-    </>
-  );
+      <Routes>
+        <Route path="/" element={<Home filteredApiNew={filteredApiNew} />} />
+        <Route path="/login" element={<Login />} />
+        <Route path="*" element={<Navigate to="/" replace />} />
+      </Routes>
+    </BrowserRouter>
+    <Sliderr />
+  </>
+);
 };
-export default App;
 
-// import React from 'react'
-// import HeaderComputo from './cristhian/HeaderComputo'
-// import Categoria from './cristhian/Categoria'
-// import Novedades from './cristhian/Novedades'
-// import Carrucel from './Carrucel.jsx'
-// import Carru from './Carru.jsx'
-
-// const App = () => {
-//   return (
-//     <>
-//       <HeaderComputo />
-//       <Carru />
-//         <Categoria />
-//         <Novedades />
-
-//         <Carrucel />
-
-//     </>
-//   )
-// }
-
-// export default App
+export default App

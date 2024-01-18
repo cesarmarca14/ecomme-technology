@@ -1,0 +1,28 @@
+
+.slider-container{
+    /* border: solid rgb(219, 29, 29); */
+    background-color: black;
+    margin: 0 auto;
+    /* width: 1500px;
+    height: 900px; */
+    /* overflow-x: hidden; */
+}
+.slider{
+    display: flex;
+    cursor:grab;
+}
+
+.item{
+ /* background-color: rgb(7, 213, 249); */
+ margin: 10px;
+}
+
+
+
+.item img{
+    width: 600px;
+    height: 800px;
+    pointer-events: none;
+    padding: 20px 20px 20px 20px;
+    /* border: 2px solid red;  */
+}

@@ -4,7 +4,7 @@ import Novedades from "../../cristhian/Novedades";
 import Slider from "../../cristhian/Slider";
 import Categorias from "../../cesar/Categorias";
 import '../../cesar/Categorias.css'
-import '../../cesar/ModoDarck1.css'
+import '../../cristhian/Slider.css'
 
 const Home = ({filteredApiNew}) => {
   return (
