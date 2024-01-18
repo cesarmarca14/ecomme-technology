@@ -2,13 +2,14 @@ import { Navigate, BrowserRouter, Route, Routes } from "react-router-dom";
 import HeaderComputo from "./cristhian/HeaderComputo";
 import Home from "./pages/Home/home";
 import { catnew } from "./cristhian/apinew";
-import Carrucel from './Carrucel.jsx';
+import Carrucel from "./Carrucel.jsx";
 import { useState } from "react";
 import Login from "./Christofer/Login";
 import { getAuth, onAuthStateChanged } from "firebase/auth";
 import appFirebase from "./credenciales";
 const auth = getAuth(appFirebase);
 import ModoDarck from "./cesar/ModoDarck.jsx";
+import Gamer from "./cristhian/Gamer.jsx";
 
 const App = () => {
   const [search, setSearch] = useState("");
@@ -28,16 +29,14 @@ const App = () => {
 
   return (
     <>
-
       <BrowserRouter>
-      <HeaderComputo 
-      
-      user={user} />
-        
+        <HeaderComputo user={user} />
+
         <Routes>
           <Route path="/" element={<Home filteredApiNew={filteredApiNew} />} />
           <Route path="/login" element={<Login />} />
           <Route path="*" element={<Navigate to="/" replace />} />
+          <Route path= "/zonaga" element={<Gamer/>} />
         </Routes>
       </BrowserRouter>
     </>

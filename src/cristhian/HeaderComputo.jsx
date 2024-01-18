@@ -38,7 +38,7 @@ const HeaderComputo = ({ user }) => {
                   className="inicio font-semibold flex flex-col items-center"
                   to="/login"
                 >
-             <i class="bi bi-person-fill"></i>
+             <i className="bi bi-person-fill"></i>
                   Bienvenido {user?.email}
                 </p>
               </li>
