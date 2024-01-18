@@ -3,6 +3,7 @@ import Categoria from "../../cristhian/Categoria";
 import Novedades from "../../cristhian/Novedades";
 import Slider from "../../cristhian/Slider";
 import Categorias from "../../cesar/Categorias";
+import SliderCesar from "../../componets/SliderCesar";
 import '../../cesar/Categorias.css'
 import '../../cesar/ModoDarck1.css'
 
@@ -14,6 +15,7 @@ const Home = ({filteredApiNew}) => {
       <Categoria />
       <Novedades items={filteredApiNew} />
       <Slider />
+      <SliderCesar/>
      
     </>
   );
