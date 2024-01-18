@@ -14,7 +14,7 @@ const ModoDarck = () => {
   return (
     <>
       <button onClick={toggle}>
-        {Darck ? <i className="bi bi-moon"></i> : <i className="bi bi-sun-fill"></i>}
+        {Darck ? <i className="fs-3 noche bi-moon"></i> : <i className="fs-2 dia bi-sun-fill"></i>}
       </button>
     </>
   );

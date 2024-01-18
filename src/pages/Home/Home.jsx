@@ -10,7 +10,7 @@ import '../../cesar/ModoDarck1.css'
 const Home = ({filteredApiNew}) => {
   return (
     <>
-      <ModoDarck />
+
       <Carru />
        <Categorias/>
       <Categoria />
