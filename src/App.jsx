@@ -10,6 +10,7 @@ import appFirebase from "./credenciales";
 const auth = getAuth(appFirebase);
 import ModoDarck from "./cesar/ModoDarck.jsx";
 import Gamer from "./cristhian/Gamer.jsx";
+import GaleriaGamer from "./pages/Home/GaleriaGamer.jsx";
 
 const App = () => {
   const [search, setSearch] = useState("");
@@ -36,8 +37,9 @@ const App = () => {
           <Route path="/" element={<Home filteredApiNew={filteredApiNew} />} />
           <Route path="/login" element={<Login />} />
           <Route path="*" element={<Navigate to="/" replace />} />
-          <Route path= "/zonaga" element={<Gamer/>} />
-        </Routes>
+          <Route path= "/zonaga" element={<GaleriaGamer/>} />
+
+          </Routes>
       </BrowserRouter>
     </>
   );
