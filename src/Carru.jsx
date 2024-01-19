@@ -7,7 +7,7 @@ const Carru = () => {
   const images = [
 
     { 
-      original: 'https://i.postimg.cc/qByWQ480/1.jpg'
+      original: 'https://i.postimg.cc/63kV4SCf/mercadoshop-venta-de-productos-promociones-tecnologia-negro-4.jpg'
     },
     {
       original: 'https://i.postimg.cc/QdxPX7vx/2.jpg'
