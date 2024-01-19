@@ -7,15 +7,15 @@ const Carru = () => {
   const images = [
 
     { 
-      original: 'https://i.postimg.cc/0NZS86js/4.png'
+      original: 'https://i.postimg.cc/c1p4LDr7/3.jpg'
     },
     {
-      original: 'https://i.postimg.cc/XJJCXVBy/3.png'
+      original: 'https://i.postimg.cc/3ND6qFhY/4.jpg'
     },
-    {original: 'https://i.postimg.cc/43XtkvJP/5.png'
+    {original: 'https://i.postimg.cc/hhWwRQ4x/6.jpg'
     },
-    //  {original: 'https://i.postimg.cc/8PG909Hv/6.jpg'
-    //  },
+    {original: 'https://i.postimg.cc/SQ2xq0NN/7.jpg'
+  },
    
   ]
 

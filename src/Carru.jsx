@@ -7,15 +7,17 @@ const Carru = () => {
   const images = [
 
     { 
-      original: 'https://i.postimg.cc/63kV4SCf/mercadoshop-venta-de-productos-promociones-tecnologia-negro-4.jpg'
+      original: 'https://i.postimg.cc/Qtt7YCcq/1.jpg'
     },
     {
-      original: 'https://i.postimg.cc/QdxPX7vx/2.jpg'
+      original: 'https://i.postimg.cc/wMRmHrfy/9.jpg'
     },
-    {original: 'https://i.postimg.cc/02CFRnWB/5.jpg'
+    {original: 'https://i.postimg.cc/GpzYjGT2/2.jpg'
     },
-    {original: 'https://i.postimg.cc/8PG909Hv/6.jpg'
-    },
+    // {original: 'https://i.postimg.cc/Y9sW573B/8.jpg'
+    // },
+    {original: 'https://i.postimg.cc/JhRZJPnv/10.jpg'
+  },
    
   ]
 
