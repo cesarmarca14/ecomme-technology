@@ -4,8 +4,8 @@ import {motion } from 'framer-motion'
 
 const Slider1 = () => {
   return (
-    <motion.div className="sliderC-container">
-      <motion.div className="slider2" drag = 'x' dragConstraints={{right:-20, left:-1160}}>
+    <motion.div className="sliderC-container scroll">
+      <motion.div className="slider2" drag = 'x' dragConstraints={{right:-20, left:-200}}>
         {images.map(image =>(
             <motion.div className={`item ${image.class}`}>
               <a href="">
