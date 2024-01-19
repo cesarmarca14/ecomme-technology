@@ -5,13 +5,12 @@ const Gamer = () => {
   return (
     <>
       <div className="">
-        <p className="font-bold ml-[50px]  mt-10">Novedades</p>
-        <p className="ml-[50px] mt-">
-          Las mejores novedades de todo el
-          <span className="font-bold text-red-700">P</span>er
-          <span className="font-bold text-red-700">ú</span>
-        </p>
-
+        <div className='flex  border-4 justify-end mt-20 mr-20'>  
+      <input type="text"
+      placeholder='busca la pc de tus sueños ' />
+      <button className='border-2 border-black'>Buscar</button>
+      </div>
+      
         <div className="card_contenedor  ">
           {catgamer.map((item) => (
             <div className="proyecto ">
