@@ -8,7 +8,10 @@ const Slider1 = () => {
       <motion.div className="slider2" drag = 'x' dragConstraints={{right:-20, left:-1160}}>
         {images.map(image =>(
             <motion.div className={`item ${image.class}`}>
+              <a href="">
                 <img src={image.img} alt="" />
+                <p>{image.text}</p>
+              </a>
             </motion.div>
         ))}
         </motion.div>
@@ -17,3 +20,6 @@ const Slider1 = () => {
 }
 
 export default Slider1
+
+// ------------dos---------
+
