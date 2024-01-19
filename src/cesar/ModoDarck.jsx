@@ -1,17 +1,23 @@
-
+import { useState, useEffect } from 'react';
 
 const ModoDarck = () => {
-    // const [show,setS]
+  const [Darck, setDark] = useState(true);
 
+  const toggle = () => {
+    setDark(!Darck);
+  };
+
+  useEffect(() => {
+    document.body.className = Darck ? 'Darck Darck-color' : 'Ligth';
+  }, [Darck]);
 
   return (
-    
-    <div className="modoDarck">
-       <button className="dia">dia</button>
-       <button className="noche">noche</button>
-    </div>
-    
-  )
-}
+    <>
+      <button onClick={toggle}>
+        {Darck ? <i className="fs-3 noche bi-moon"></i> : <i className="fs-2 dia bi-sun-fill"></i>}
+      </button>
+    </>
+  );
+};
 
-export default ModoDarck
+export default ModoDarck;

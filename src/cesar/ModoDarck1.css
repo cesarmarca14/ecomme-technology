@@ -1,15 +1,15 @@
-.modoDarck{
-    /* border: solid red; */
-    background-color: blue;
-    margin-left: 20px;
-    display: flex;
-    gap: 30px;
+
+.Darck{
+    background-color: rgb(39, 34, 34);
+    width: 100%;
+    height: 100vh;
 
 }
-.dia{
-    background-color: blueviolet;
-      
+
+
+.Ligth{
+    background-color: rgb(245, 234, 234);
+    width: 100%;
+    height: 100vh;
 }
-.noche{
-    background-color: black;
-}
+
