@@ -8,6 +8,7 @@ import Login from "./Christofer/Login";
 import { getAuth, onAuthStateChanged } from "firebase/auth";
 import appFirebase from "./credenciales";
 const auth = getAuth(appFirebase);
+import ModoDarck from "./cesar/ModoDarck.jsx";
 
 const App = () => {
   const [search, setSearch] = useState("");
@@ -27,8 +28,11 @@ const App = () => {
 
   return (
     <>
+
       <BrowserRouter>
-      <HeaderComputo user={user} />
+      <HeaderComputo 
+      
+      user={user} />
         
         <Routes>
           <Route path="/" element={<Home filteredApiNew={filteredApiNew} />} />
