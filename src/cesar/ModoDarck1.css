@@ -1,6 +1,10 @@
 
 .Darck{
+<<<<<<< HEAD
     background-color: black;
+=======
+    background-color: rgb(39, 34, 34);
+>>>>>>> 76dc50e47222a560371f11e7b4ff5cd8053fea8e
     width: 100%;
     height: 100vh;
 
@@ -8,7 +12,11 @@
 
 
 .Ligth{
+<<<<<<< HEAD
     background-color:white;
+=======
+    background-color: rgb(245, 234, 234);
+>>>>>>> 76dc50e47222a560371f11e7b4ff5cd8053fea8e
     width: 100%;
     height: 100vh;
 }

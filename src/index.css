@@ -1,5 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;700&family=Orbitron:wght@600&display=swap');
+<<<<<<< HEAD
 
+=======
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+>>>>>>> 76dc50e47222a560371f11e7b4ff5cd8053fea8e
 
 
 body{
@@ -23,6 +31,10 @@ body{
     background-color: rgb(12, 90, 206);
     gap: 50px;
    
+<<<<<<< HEAD
+=======
+   
+>>>>>>> 76dc50e47222a560371f11e7b4ff5cd8053fea8e
 
   }
   .heradersm:hover{
@@ -42,11 +54,19 @@ body{
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
+<<<<<<< HEAD
   gap: 30px;
   width: 98%;
   margin: auto;
   margin-top: 100px;
   background-color: #f0f0f0;
+=======
+  gap: 29px;
+  width: 98%;
+  margin: auto;
+  margin-top: 100px;
+  /* background-color: #f0f0f0; */
+>>>>>>> 76dc50e47222a560371f11e7b4ff5cd8053fea8e
   margin-bottom: 70px;
 }
 .card_img{
@@ -145,14 +165,24 @@ body{
 }
 /* fin del carrucel infinito */
 
+<<<<<<< HEAD
 /* Carrucel */
+=======
+/* Carrucel hecho con libreria de react */
+>>>>>>> 76dc50e47222a560371f11e7b4ff5cd8053fea8e
 .carru{
   width: 100%;
   margin: auto;
   z-index: -1;
+<<<<<<< HEAD
   background-color: #0c163b;
   background-size: cover;
   
+=======
+
+  background-size: cover;
+  margin-top: 125px;
+>>>>>>> 76dc50e47222a560371f11e7b4ff5cd8053fea8e
   border-radius: 10px;
 
   /* Aqui lo que pasaba era que cuando hacia modo celular el carrucel no se escondia cuando activava el menu ambuguesa por eso se le puso un z-index -1 y en modo celular tenga una position relative y con esto ya desaparece al poner el menu ambuguesa */
@@ -201,4 +231,75 @@ body{
     -webkit-transform: translateX(calc(-200px * 10));
     transform: translateX(calc(-200px * 10));
   }
+<<<<<<< HEAD
+=======
+}
+
+/* zona de galeria 
+he dado un paddin de 5px a las imagenes para que no se peguen a los bordes y en general los ppading son para que haya una separacion tambien en las imagenes
+*/
+.imagen_galeria{
+  width: 100%;
+  padding: 5px;
+  border-radius: 30px;
+
+
+
+}
+
+/* aqui le puse un flex-wrap a wrap ya que por defecto viene en nowrap y lo que hace es que siempre intente encajar las imagenes en ,la misma fila */
+.row_row{
+  display: flex;
+  padding: 5px;
+  flex-wrap: wrap;
+}
+.columna{
+  flex:25%;
+  padding: 5px;
+ 
+}
+
+
+/* aqui le puse un media query para que cuando el ancho de la pantalla sea menor a 800px se pongan 2 imagenes por fila y cuando sea menor a 600px se ponga una imagen por fila  adicional :
+La propiedad CSS `flex` es una abreviatura de tres propiedades: `flex-grow`, `flex-shrink`, y `flex-basis`. Estas tres propiedades se utilizan para controlar cómo un elemento se expande y se contrae para llenar el espacio disponible en un contenedor de flexbox.
+
+Cuando se utiliza `flex` con un solo número, como `flex: 25%`, `flex: 50%`, o `flex: 100%` en tu código, se está estableciendo el valor de `flex-basis`. `flex-basis` define el tamaño inicial de un elemento antes de que se distribuya el espacio restante.
+
+Por ejemplo, `flex: 25%` hace que el elemento ocupe inicialmente el 25% del espacio total del contenedor. Luego, el espacio restante se distribuye entre los elementos según sus valores `flex-grow` y `flex-shrink`.
+
+En tu código, estás utilizando media queries para cambiar el valor de `flex-basis` de los elementos con la clase `.columna` en diferentes anchos de pantalla. Esto hace que los elementos se expandan para ocupar más espacio en pantallas más pequeñas, lo que puede ser útil para hacer que tu diseño sea responsive.*/
+@media (400px <= width <= 800px){
+  .columna{
+    flex: 50%;
+  }
+}
+
+@media (400px <= width <= 600px){
+  .columna{
+    flex: 100%;
+  }
+}
+.contenedor_de_galeria{
+  width: 70%;
+  margin: auto;
+  margin-top: 120px;
+}
+
+/* zona carrucel de zona gamer */
+.carrucel_gamer2{
+  width: 100%;
+  margin: auto;
+  z-index: -1;
+  background-size: cover;
+
+}
+.carru_gamer2{
+  width: 100%;
+ 
+  z-index: -1;
+  background-size: cover;
+  margin-top: 125px;
+  
+  
+>>>>>>> 76dc50e47222a560371f11e7b4ff5cd8053fea8e
 }
