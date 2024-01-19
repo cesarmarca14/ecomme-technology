@@ -14,7 +14,9 @@ body{
 }
 /* menu hamburguesa */
 .hamburguer{
-  margin-right: 30px;
+  margin-right: 10px;
+  margin-top: 40px;
+  margin-left: 80px;
 
   /* termino de menu hamburguesa del header */
 }
@@ -35,11 +37,46 @@ body{
     font-weight: lighter;
     transition: 0.5s;
    
-  }
-  
+  } 
 }
 
+@media (400px <= width <= 800px) {
+  .header_inicio_sesion{
+    color: black;
+    font-weight: bold;
+   
+    width: 55%;
+   
+   
 
+  }
+  .header_inicio_sesion:hover{
+    font-size: 40px;
+    font-weight: lighter;
+    transition: 0.5s;
+    
+   
+  } 
+}
+@media (400px <= width <= 800px) {
+  .header_carrito_compras{
+    color: black;
+    font-weight: lighter;
+    width: 75%;
+    margin-left: 50px;
+  
+   
+   
+
+  }
+  .header_carrito_compras :hover{
+    font-size: 35px;
+    font-weight: bold;
+    transition: 0.5s;
+    
+   
+  } 
+}
 
 /* zona de novedades Cards */
 .card_contenedor{
