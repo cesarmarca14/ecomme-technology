@@ -1,7 +1,11 @@
 {
   "name": "technology",
   "private": true,
+<<<<<<< HEAD
   "version": "6.5.1",
+=======
+  "version": "0.0.0",
+>>>>>>> b766fa59ace0994f6b4091078c6bd0cc677ff2fc
   "type": "module",
   "scripts": {
     "dev": "vite",

@@ -7,6 +7,7 @@ const Carru = () => {
   const images = [
 
     { 
+<<<<<<< HEAD
       original: 'https://i.postimg.cc/c1p4LDr7/3.jpg'
     },
     {
@@ -16,6 +17,17 @@ const Carru = () => {
     },
     {original: 'https://i.postimg.cc/SQ2xq0NN/7.jpg'
   },
+=======
+      original: 'https://i.postimg.cc/0NZS86js/4.png'
+    },
+    {
+      original: 'https://i.postimg.cc/XJJCXVBy/3.png'
+    },
+    {original: 'https://i.postimg.cc/43XtkvJP/5.png'
+    },
+    //  {original: 'https://i.postimg.cc/8PG909Hv/6.jpg'
+    //  },
+>>>>>>> b766fa59ace0994f6b4091078c6bd0cc677ff2fc
    
   ]
 
