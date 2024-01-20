@@ -6,8 +6,6 @@ import Row from "react-bootstrap/Row";
 import { getDataofertasApi } from "./rafaApi.js";
 import "./RafaOfertas.css";
 
-// export const RafaOfertas = () => {
-
 const RafaOfertas = () => {
   // vamos crea una variable para guaradr la lista de ofertas
   //const [ofertas, setPokemons] = useState([]);
@@ -26,7 +24,6 @@ const RafaOfertas = () => {
                 </div>
               {/* <Card.Img variant="top" src={getDataofertasApi.img} /> */}
               <Card.Body>
-                
                 <Card.Title>{getDataofertasApi.name}</Card.Title>
                 <Card.Text>{getDataofertasApi.description}</Card.Text>
                 <Card.Text>Codigo: {getDataofertasApi.id}</Card.Text>

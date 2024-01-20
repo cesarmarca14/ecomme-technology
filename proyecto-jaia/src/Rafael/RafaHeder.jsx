@@ -1,7 +1,6 @@
 import React from 'react'
 import './rafaHeader.css'
-
-import {Carousel} from 'react-bootstrap';
+import {Carousel} from 'react-bootstrap'
 
 
 function RafaHeader() {
