@@ -6,7 +6,14 @@ import SliderCesar from "../../cesar/SliderCesar";
 import '../../cesar/Categorias.css'
 import '../../cesar/ModoDarck1.css'
 import '../../styles/Slider.css'
-import Galeria from "../../cristhian/Galeria";
+import Galeria from "../../cristhian/Galeria"
+import RafaHeader from "../../../proyecto-jaia/src/Rafael/RafaHeder";
+import '../../../proyecto-jaia/src/Rafael/rafaHeader.css'
+
+
+
+
+
 
 const Home = ({filteredApiNew}) => {
   return (
@@ -16,6 +23,9 @@ const Home = ({filteredApiNew}) => {
       <SliderCesar />
       <Novedades items={filteredApiNew} />
       <Slider />
+    
+      <RafaHeader/>
+     
       
     
     </>
