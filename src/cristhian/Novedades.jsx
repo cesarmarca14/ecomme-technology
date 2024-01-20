@@ -14,7 +14,7 @@ const Novedades = () => {
 
         <div className="card_contenedor  ">
           {catnew.map((item) => (
-            <div className="envoltorio_card">
+            <div className="proyecto ">
               <div className=" bg-white border-2 rounded-md ">
                 <div className="overlay hover:translate-y-2.5 hover:transition-all hover:rounded-md text-center ">
                   <img className="card_img" src={item.img} alt="" />
