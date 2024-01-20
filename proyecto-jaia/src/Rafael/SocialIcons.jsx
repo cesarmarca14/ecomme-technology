@@ -36,6 +36,7 @@ const SocialIcons = ({ Icons }) => {
         duration-300"
         ><a href="http://www.google.com.pe" target="_blanc">
         <FontAwesomeIcon icon={faYoutube} />
+        
       </a>
         </span>
         <span
