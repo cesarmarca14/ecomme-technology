@@ -1,5 +1,4 @@
 import images from './images'
-
 import { Link } from 'react-router-dom'
 
 
@@ -62,7 +61,7 @@ const Slider1 = () => {
               </Link>
 
                {/* -----Zona Cargadores #6----- */}
-               <Link to='zonaCargadores'>
+               <Link to='zonaOfertas'>
             <div>
               <a  href="">
                 <img className='animated-border' src={image.img6} alt="" />

@@ -17,8 +17,6 @@ const ZonaAudifonosGamer = () => {
               <div className=" bg-white border-2 rounded-md ">
                 <div className="overlay hover:translate-y-2.5 hover:transition-all hover:rounded-md text-center ">
                   <img className="card_img" src={item.img} alt="" />
-
-
                   <h2 className="card_name">{item.nombre} </h2>
                   {/* comienzo de div */}
                   <div className="contenedor_precio_logo  ">

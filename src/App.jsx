@@ -2,7 +2,6 @@ import { Navigate, BrowserRouter, Route, Routes,} from "react-router-dom";
 import HeaderComputo from "./cristhian/HeaderComputo";
 import Home from "./pages/Home/Home.jsx";
 import { catnew } from "./cristhian/apinew";
-
 import { useState } from "react";
 import Login from "./Christofer/Login";
 import { getAuth, onAuthStateChanged } from "firebase/auth";
@@ -17,9 +16,9 @@ import Ide2 from "./cristhian/Id2.jsx";
 import CarrucelZonaMicrofonos from "./cesar/zonaCarruceles/CarrucelZonaMicrofonos.jsx";
 import CarrucelZonaAudifonosGamer from "./cesar/zonaCarruceles/CarrucelZonaAudifonosGamer.jsx";
 import CarrucelZonaLaptops from "./cesar/zonaCarruceles/CarrucelZonaLaptops.jsx";
-
 import CarrucelZonaPcGamer from "./cesar/zonaCarruceles/CarrucelZonaPcGamer.jsx";
 import CarrucelZonaMonitores from "./cesar/zonaCarruceles/CarrucelZonaMonitores.jsx";
+import RafaOfertas from "./Rafael/RafaOfertas.jsx";
 
 const App = () => {
   const [search, setSearch] = useState("");
@@ -52,18 +51,14 @@ const App = () => {
           <Route path= "/zonaMicrofonos" element={<CarrucelZonaMicrofonos/>} />
           <Route path= "/zonaAudifonosGamer" element={<CarrucelZonaAudifonosGamer/>} />
           <Route path= "/zonaLaptops" element={<CarrucelZonaLaptops/>} />
-         
+          <Route path= "/zonaOfertas" element={<RafaOfertas/>} />
           <Route path= "/zonaLaptops" element={<ZonaPcGamer/>} />
-          
           <Route path= "/ZonaPcGamer" element={<ZonaPcGamer/>} />
           <Route path= "/zonaMonitores" element={<ZonaMonitores/>} />
           <Route path="/zonaespe/:0" element={<Especificaciones/>} />
           <Route path="/zonaespe/:1" element={<Ide2/>} />
-        
           <Route path= "/ZonaPcGamer" element={<CarrucelZonaPcGamer/>} />
           <Route path= "/zonaMonitores" element={<CarrucelZonaMonitores/>} />
-
-        
 
           </Routes>
       </BrowserRouter>

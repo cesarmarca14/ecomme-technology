@@ -42,7 +42,7 @@ const ZonaCargadores = () => {
                   {/* comienzo del boton */}
                   <button className="boton_compra flex items-center ">
                     <a className="text-white font-bold" target="_blank" href="">
-                      Agregar
+                      Agregar XXXXXX
                     </a>
 
                     <p>
