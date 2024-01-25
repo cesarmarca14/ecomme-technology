@@ -5,9 +5,12 @@ const Novedades = () => {
   return (
     <>
       <div className="">
-      
+      <div className='slider'>
+        <h1 className=' marca_asociada flex justify-center text-4xl mt-20 text-[#072146]font-bold'>Las Mejores Novedades para que este 2024 empieces de la mejor manera </h1>
+        </div>
 
-        <div className="card_contenedor  ">
+
+        <div className="card_contenedor ">
           {catnew.map((item) => (
             <div className="proyecto ">
               <div className=" bg-white border-2 rounded-md ">
@@ -48,7 +51,7 @@ const Novedades = () => {
                     </p>
                   </div>
                   {/* comienzo del boton */}
-                  <button className="boton_compra flex items-center ">
+                  <button className="boton_compra flex items-center mx-auto ">
                     <a className="text-white font-bold" target="_blank" href="">
                       Agregar
                     </a>

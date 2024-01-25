@@ -173,8 +173,8 @@ body{
   margin-bottom: 70px;
 }
 .card_img{
-  width: 200px;
-  height: 200px;
+  width: 300px;
+  height: 300px;
 
   margin:auto;
 
@@ -207,6 +207,7 @@ body{
   height: 30px;
   align-items: center;
   justify-content: space-between;
+ 
   
 }
 /* termino estilos a los precios */
