@@ -1,9 +1,9 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import RafaFooter from './rafael/rafaFooter.jsx'
+import RafaFooter from './Rafael/RafaFooter.jsx'
 import App from './App.jsx'
 import './index.css'
-import Slider from "./cristhian/Slider";
+import Slider from "./cristhian/Slider.jsx";
 
 
 ReactDOM.createRoot(document.getElementById('root')).render(

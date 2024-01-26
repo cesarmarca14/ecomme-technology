@@ -6,7 +6,7 @@ import { Icons } from "./Menus"
 
 // ffffff19 caja de correo bg-gray-900 footer
 
-const rafaFooter = () => {
+const RafaFooter = () => {
   return (
     <footer className=" bg-[#021535] text-white">
       <div className="md:flex md:justify-between md:items-center sm:px-12 px-4 bg-[#023465] py-7">
@@ -45,4 +45,4 @@ const rafaFooter = () => {
   );
 };
 
-export default rafaFooter;
+export default RafaFooter;
