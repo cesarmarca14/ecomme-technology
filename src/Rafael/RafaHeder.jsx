@@ -5,7 +5,6 @@ import Slide1 from './imagen/carrusel01.jpg'
 import Slide2 from './imagen/carrusel02.jpg'
 import Slide3 from './imagen/carrusel03.jpg'
 
-
 function RafaHeader() {
   return (
     <>
