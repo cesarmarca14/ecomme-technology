@@ -12,7 +12,6 @@ import slide3 from './imagen/carrusel03.jpg'
 const RafaOfertas = () => {
   // vamos crea una variable para guaradr la lista de ofertas
   //const [ofertas, setPokemons] = useState([]);
-
   // debemos crear una funcion que se encargue de ejecutar la peticion de la lista de ofertas
   // console.log("lista", getDataofertasApi);
 
