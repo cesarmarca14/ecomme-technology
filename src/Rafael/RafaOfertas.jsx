@@ -14,6 +14,7 @@ const RafaOfertas = () => {
 
   return (
     <>
+    <br /><br /><br /><br /><br />
       <Row xs={1} md={3} className="g-4">
         {getDataofertasApi.map((getDataofertasApi, idx) => (
           <Col key={idx}>
