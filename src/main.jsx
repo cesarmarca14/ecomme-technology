@@ -1,6 +1,6 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import RafaFooter from './rafael/RafaFooter.jsx'
+import RafaFooter from './Rafael/rafaFooter.jsx'
 import App from './App.jsx'
 import './index.css'
 import Slider from "./cristhian/Slider";

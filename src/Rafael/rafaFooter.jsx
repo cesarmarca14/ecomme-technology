@@ -4,7 +4,6 @@ import ItemsContainer from "./ItemsContainer"
 import SocialIcons from "./SocialIcons"
 import { Icons } from "./Menus"
 
-// ffffff19 caja de correo bg-gray-900 footer
 
 const RafaFooter = () => {
   return (
