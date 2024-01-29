@@ -5,6 +5,9 @@ import Row from "react-bootstrap/Row";
 import { getDataofertasApi } from "./rafaApi.js";
 import "./RafaOfertas.css";
 import {Carousel} from 'react-bootstrap'
+import slide1 from './imagen/carrusel01.jpg'
+import slide2 from './imagen/carrusel02.jpg'
+import slide3 from './imagen/carrusel03.jpg'
 
 const RafaOfertas = () => {
   // vamos crea una variable para guaradr la lista de ofertas
@@ -20,21 +23,21 @@ const RafaOfertas = () => {
           <br /><br /><br /><br /><br />
           <img 
           //  size-full md:size-auto
-          src="./src/Rafael/imagen/carrusel01.jpg" 
+          src={slide1} 
           alt="First Slide"/>
           <Carousel.Caption>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item interval={500}>
         <br /><br /><br /><br /><br />
-        <img src="./src/Rafael/imagen/carrusel02.jpg" alt="Second Slide"/>
+        <img src={slide2}  alt="Second Slide"/>
           <Carousel.Caption>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
         <br /><br /><br /><br /><br />
         <img 
-        src="./src/Rafael/imagen/carrusel03.jpg" alt="Third Slide"/>
+        src={slide3} alt="Third Slide"/>
           <Carousel.Caption>
           </Carousel.Caption>
         </Carousel.Item>
