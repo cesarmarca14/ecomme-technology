@@ -3,7 +3,7 @@
 @import "tailwindcss/utilities";
 
 div {
-    color: rgb(22, 20, 20);
+    color: rgb(10, 10, 10);
 }
 .img {
     height: 625px;
